@@ -6,6 +6,7 @@ import ProjectsView from '../projects/projects-view';
 import { Container } from '@/shared/components/container';
 import { Highlight } from '@/shared/components/highlight';
 import { yearsOfExperience } from '@/shared/utils/years-experience';
+import GithubCalendar from './home-github-contribution';
 
 export default function HomeView() {
   return (
@@ -17,6 +18,8 @@ export default function HomeView() {
         Amo a tecnologia e estou sempre buscando aprimorar minhas habilidades
         com boas práticas de programação, arquiteturas de sistemas e UI/UX.
       </Paragraph>
+
+      <GithubCalendar/>
 
       <Heading
         as="h2"

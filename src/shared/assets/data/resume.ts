@@ -1,63 +1,59 @@
 export const EXPERIENCES = [
     {
-      company: "Movingpay",
-      title: "Desenvolvedora Front-end",
-      date: "Jan 2024 - Atual",
+      company: "Maxar Technologies",
+      title: "Software Engineer",
+      date: "Sept 2022 - Present",
       responsibilities: [
-        "Implementação de novas funcionalidades em uma plataforma de soluções para meios de pagamento, utilizando Next.js e React.",
-        "Desenvolvimento de um sistema de login unificado, proporcionando uma experiência de autenticação simplificada e integrada.",
-        "Utilização de tecnologias como Angular, AWS e TypeScript para garantir uma performance e escalabilidade robustas.",
+        "Leverages and maintains an event-driven, microservice system for efficient processing of imagery to a customer-accessible \href{https://stacspec.org/en}{STAC} API.",
+        "{Proficient in multiple programming languages including Python, Groovy, and Terraform, with a strong track record of designing and implementing complex software systems",
+        "Lead developer for the integration of third-party synthetic aperture radar (SAR) imagery into Maxar's catalog, enhancing multisource geospatial intelligence capabilities for both government and commercial clients.",
+        "Adept at translating user requirements into practical solutions, conducting comprehensive testing, and debugging to deliver reliable and scalable software applications."
       ],
     },
     {
-      company: "Cuca Fresca",
-      title: "Desenvolvedora de Software",
-      date: "Set 2022 - Jan 2024",
+      company: "Maxar Technologies",
+      title: "Geospatial Data Analyst",
+      date: "May 2020 - Sept 2022",
       responsibilities: [
-        "Desenvolvimento no front-end utilizando o framework Angular.",
-        "Back-end utilizando Node.js e Typescript.",
-        "Banco de dados PostgreSQL.",
-        "Utilização de Design Patterns como Facade, Adapter, Singleton, Decorators, MVC, etc.",
-        "Organização do código com boas práticas de programação e conceitos SOLID.",
-        "Criação de testes unitários com princípios TDD utilizando Jest e Jasmine.",
-        "Versionamento de código com Git e Git Flow.",
-        "Documentação de componentes utilizando Storybook e documentação da API utilizando Swagger.",
+        "Developed and enhanced functionality of Spatial on Demand, a geospatial intelligence streaming platform for energy customers, by focusing on a requirements-driven design; ultimately securing 50+ contracts valued at \$3 million total.",
+        "Led the migration of energy customers to new web mapping services (WMS/WMTS), including transforming geospatial data into cloud-optimized GeoTIFF (COG) files using GDAL, configuring layer access, and integrating services with third-party mapping clients.",
+        "Implemented and optimized web services for performance and interoperability using a diverse set of technologies, including GeoServer, Amazon Web Services, ESRI Image Services, and a MapProxy tile caching solution.",
+        "Analyzed geospatial satellite data for quality assurance, radiometric scaling, and horizontal accuracy."
       ],
     },
     {
-      company: "House Performance",
-      title: "Diretora de Arte",
-      date: "Jul 2022 - Set 2022",
+      company: "City of Lakewood",
+      title: "GIS Technician Intern",
+      date: "May 2019 - May 2020",
       responsibilities: [
-        "Criação de campanhas para diversos setores imobiliário e automotivo.",
-        "Criação de posts para social media e e-mail marketing.",
-        "Edição de vídeo, retouch e tratamento de imagens.",
-        "Criação de selos 3D e desenvolvimento de Landing Pages.",
+        "Ensured accuracy and reliability of city-owned assets through regular updates and maintenance of GIS databases, with occasional fields surveys using GPS technology.",
+        "Developed, tested, and deployed geoprocessing tools to automate data cleaning tasks for the Public Works Street Maintenance Division."
       ],
     },
     {
-      company: "Mustache LTDA",
-      title: "Diretora de Arte",
-      date: "Nov 2021 - Jul 2022",
+      company: "University of Colorado, Denver",
+      title: "Graduate Research Assistant",
+      date: "Sept 2018 - May 2019",
       responsibilities: [
-        "Desenvolvimento e desdobramento de KVs para campanhas publicitárias.",
-        "Ambientação, tratamento e manipulação de imagens.",
-        "Criação de posts para social media, produção de impressos e animações simples em vídeos.",
-        "Suporte no setor web como front-end, desenvolvimento de Landing Pages",
-        "HTML, CSS, JavaScript, Bootstrap, Wordpress.",
-        "Realização de conversão Design To Code.",
-      ],
-    },
-    {
-      company: "Comafer Ferramentas",
-      title: "Gestão Administrativa em Informática",
-      date: "Nov 2019 - Nov 2021",
-      responsibilities: [
-        "Administração e suporte no software de emissão de NFe.",
-        "Tratamento de imagens dos produtos para o site de vendas.",
-        "Manutenção e controle de planilhas utilizando Excel.",
-        "Expedição, vendas e pós-vendas.",
+        "Orchestrated land cover analysis for the Paleoecology, Palynology, and Climate Change Laboratory, to determine food resource availability for pollinators using high-resolution satellite data.",
+        "Developed a web mapping application for the lab."
       ],
     },
   ];
+
+  export const EDUCATION = [
+    {
+      company: "Maxar Technologies",
+      title: "Software Engineer",
+      date: "Sept 2022 - Present",
+      responsibilities: [
+        "Leverages and maintains an event-driven, microservice system for efficient processing of imagery to a customer-accessible \href{https://stacspec.org/en}{STAC} API.",
+        "{Proficient in multiple programming languages including Python, Groovy, and Terraform, with a strong track record of designing and implementing complex software systems",
+        "Lead developer for the integration of third-party synthetic aperture radar (SAR) imagery into Maxar's catalog, enhancing multisource geospatial intelligence capabilities for both government and commercial clients.",
+        "Adept at translating user requirements into practical solutions, conducting comprehensive testing, and debugging to deliver reliable and scalable software applications."
+      ],
+    },
+  ];
+
+
   

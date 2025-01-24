@@ -14,12 +14,12 @@ export const NAV_LINKS = [
   },
   {
     href: "/about",
-    label: "Sobre",
+    label: "About",
     icon: IconUser,
   },
   {
     href: "/projects",
-    label: "Projetos",
+    label: "Projects",
     icon: IconTools,
   },
   // {

@@ -1,28 +1,23 @@
 import {
     IconBrandInstagram,
     IconBrandGithub,
-    IconBrandBehance,
+    IconBrandHackerrank,
     IconBrandLinkedin,
   } from '@tabler/icons-react';
   
   export const SOCIALS = [
     {
-      href: 'https://www.instagram.com/yaslpx',
-      label: 'Instagram',
-      icon: IconBrandInstagram,
-    },
-    {
-      href: 'https://github.com/yasminlopes',
+      href: 'https://github.com/samblake00',
       label: 'GitHub',
       icon: IconBrandGithub,
     },
     {
-      href: 'https://www.behance.net/yasmin-lopes',
-      label: 'Behance',
-      icon: IconBrandBehance,
+      href: 'https://www.hackerrank.com/profile/samblake00',
+      label: 'HackerRank',
+      icon: IconBrandHackerrank,
     },
     {
-      href: 'https://www.linkedin.com/in/yasmin-lopes-841b601a1/',
+      href: 'https://www.linkedin.com/in/samblake00/',
       label: 'LinkedIn',
       icon: IconBrandLinkedin,
     },

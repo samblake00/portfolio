@@ -8,7 +8,7 @@ export default function GithubCalendar() {
         as="h2"
         className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4"
       >
-        Contribuições
+        Contributions
       </Heading>
 
       <ContributionGraph />

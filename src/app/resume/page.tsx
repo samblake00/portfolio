@@ -5,13 +5,13 @@ import { Heading } from '@/shared/components/heading';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Experiências | Yasmin Lopes",
+    title: "Experience | Samuel Blake",
   };
 
 export default function ResumePage() {
   return (
     <Container>
-      <Heading className="font-black">Experiências</Heading>
+      <Heading className="font-black">Experience</Heading>
       <ResumeView />
     </Container>
   );

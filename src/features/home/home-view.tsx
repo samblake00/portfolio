@@ -11,12 +11,10 @@ import GithubCalendar from './home-github-contribution';
 export default function HomeView() {
   return (
     <Container>
-      <Heading className="font-black">Olá, me chamo Yasmin!</Heading>
+      <Heading className="font-black">Hi my name is Samuel Blake!</Heading>
       <Paragraph className="max-w-xl mt-4">
-        Sou desenvolvedora de sofware com
-        <Highlight>mais de {yearsOfExperience} anos de experiência</Highlight>.
-        Amo a tecnologia e estou sempre buscando aprimorar minhas habilidades
-        com boas práticas de programação, arquiteturas de sistemas e UI/UX.
+        I'm a software engineer at Maxar Technologies, with a passion for people, remote sensing, snowboarding, music, and software design.
+        I utilize my diverse skill set to develop geospatial applications and extract meaningful patterns in data.
       </Paragraph>
 
       <GithubCalendar/>
@@ -25,7 +23,7 @@ export default function HomeView() {
         as="h2"
         className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4"
       >
-        Projetos mais recentes
+       Recent Projects
       </Heading>
 
       <ProjectsView />

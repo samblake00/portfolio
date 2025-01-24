@@ -4,13 +4,13 @@ import { Heading } from '@/shared/components/heading';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Projetos | Yasmin Lopes',
+  title: 'Projects | Samuel Blake',
 };
 
 export default function ProjectsPage() {
   return (
     <Container>
-      <Heading className="font-black mb-10">Projetos</Heading>
+      <Heading className="font-black mb-10">Projects</Heading>
       <ProjectsView />
     </Container>
   );

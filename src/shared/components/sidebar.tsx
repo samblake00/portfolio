@@ -24,7 +24,7 @@ export default function Sidebar() {
     <div className="flex space-x-2 items-center">
       <div className="relative w-10 h-10"> 
         <Image
-          src="https://github.com/yasminlopes.png"
+          src="https://github.com/samblake00.png"
           alt="Avatar"
           layout="fill"
           className="rounded-full object-cover"
@@ -32,8 +32,8 @@ export default function Sidebar() {
       </div>
   
       <div className="text-sm flex flex-col">
-        <p className="font-bold text-primary">Yasmin Lopes</p>
-        <p className="font-light text-secondary">Developer</p>
+        <p className="font-bold text-primary">Samuel Blake</p>
+        <p className="font-light text-secondary">Software Developer</p>
       </div>
     </div>
   );
@@ -47,7 +47,7 @@ export default function Sidebar() {
             <Navigation setOpen={setOpen} />
           </div>
           <div onClick={() => isMobile() && setOpen(false)}>
-            <Badge href="/resume" text="Ver currículo" />
+            <Badge href="/resume" text="See resume" />
           </div>
         </div>
       )}

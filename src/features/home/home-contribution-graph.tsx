@@ -10,8 +10,8 @@ export default function ContributionGraph() {
   const [calendarYear, setCalendarYear] = useState<number | undefined>(undefined);
 
   const today = new Date().getFullYear();
-  const username = 'yasmin-movingpay';
-  const joinYear = Number(2024);
+  const username = 'samblake00';
+  const joinYear = Number(2017);
   const years = getGitHubYears(joinYear);
 
   if (!username || !joinYear)

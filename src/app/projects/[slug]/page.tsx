@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   } else {
     return {
-      title: 'Projetos | Yasmin Lopes',
+      title: 'Projects | Samuel Blake',
     };
   }
 }

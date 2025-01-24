@@ -7,10 +7,10 @@ import { yearsOfExperience } from '@/shared/utils/years-experience';
 
 export default function AboutMeView() {
   const images = [
-    '/assets/images/eu.jpg',
-    '/assets/images/json.jpg',
-    '/assets/images/eu2.jpg',
-    '/assets/images/penne.jpg',
+    '/assets/images/headshot.jpg',
+    '/assets/images/kailena.jpg',
+    '/assets/images/london.jpg',
+    '/assets/images/cake.jpg'
   ];
 
   return (
@@ -43,54 +43,34 @@ export default function AboutMeView() {
       </div>
 
       <div className="max-w-4xl">
-        <Paragraph className="mt-4">
-          Olá! Meu nome é Yasmin e eu sou apaixonada por tecnologia e design.
-          Com uma formação em Análise e Desenvolvimento de Sistemas pela UNIMAR
-          e atualmente cursando pós-graduação em Engenharia de Software na PUC
-          Minas, venho unindo essas duas paixões para criar ideias inovadoras e
-          desenvolver soluções criativas.
-        </Paragraph>
 
         <Paragraph className="mt-4">
-          Com{' '}
+          With over {' '}
           <Highlight>
-            mais de {yearsOfExperience} anos de experiência em desenvolvimento
-            de software
+           {yearsOfExperience} years of experience in software design and development
           </Highlight>{' '}
-          e uma bagagem de mais de 4 anos na área de Design Gráfico, estou
-          sempre em busca de novos desafios e aprendizados.
+          and 4+ years in remote sensing/GIS, I'm always seeking new challenges and opportunities to learn and
+          grow.
         </Paragraph>
 
         <Paragraph className="mt-4">
-          Adoro explorar novas maneiras de criar melhores aplicações e estou
-          constantemente aprendendo e me atualizando. Em meu blog, você pode
-          conferir um artigo detalhado sobre a minha jornada na programação.
-          Para ler, clique{' '}
+          I’m passionate about finding innovative ways to create better applications, and I’m constantly staying updated with the latest in tech.
+          If you're interested in my journey in programming, I’ve shared a detailed article on my blog—check it out{' '}
           <a
             href="https://medium.com/@yasmin.lopes/do-zero-ao-full-stack-minha-jornada-na-programa%C3%A7%C3%A3o-6f79d264c8f7"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500"
           >
-            aqui
+            here!
           </a>
-          .
         </Paragraph>
 
         <Paragraph className="mt-4">
-          Fora do trabalho, tenho vários hobbies que amo. Gosto muito de
-          cozinhar, jogar (meu jogo favorito é The Last of Us), e sou apaixonada
-          por animais. Tenho um cachorro adorável chamado JSON, que você pode
-          seguir no Instagram em{' '}
-          <a
-            href="https://www.instagram.com/jsonthedog"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500"
-          >
-            @jsonthedog
-          </a>
-          . Além disso, sou fã de música, viagens e finanças.
+          When I’m not working, I enjoy a variety of hobbies. I love cooking with my fiancé,
+          playing games (especially Settlers of Catan and JackBox games), and I’m a big animal lover.
+          My cat, Kailena, is my furry companion and keeps me company during all my creative and coding sessions.
+          I’m also into music, travelling, snowboarding, and geocaching.
         </Paragraph>
       </div>
     </div>

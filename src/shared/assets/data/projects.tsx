@@ -1,41 +1,22 @@
 export const PROJECTS = [
   {
     href: 'https://yl-remove-bg.vercel.app/',
-    title: 'Removedor de Fundos',
+    title: 'Gentrification in Denver Using Python and GIS Automation',
     description:
-      'Uma ferramenta de privacidade que remove o fundo de imagens sem enviar nenhum dado para um servidor, garantindo 100% de processamento no lado do cliente. 🛡️',
+      'In python I analyzed census tracks',
     thumbnail: '/assets/images/thumbnails/remove-bg.jpg',
-    images: ['/assets/images/remove-bg.png', '/assets/images/remove-bg2.png'],
-    stack: ['Nextjs', 'Tailwindcss'],
-    slug: 'removedor-de-fundos',
+    images: ['/assets/images/remove-bg.png'],
+    stack: ['Python'],
+    slug: 'gentrification-in-denver',
     content: (
       <div>
         <p>
-          O Remove.bg é uma ferramenta fácil de usar que fornece uma maneira
-          segura e eficiente de remover fundos de imagens. Com foco na
-          privacidade, a ferramenta opera inteiramente no lado do cliente,
-          garantindo que nenhum dado seja enviado para servidores externos. Os
-          usuários podem desfrutar de uma experiência contínua com a
-          conveniência das opções de modo escuro e claro, além de acesso ao
-          histórico de imagens processadas. Construído com Next.js e utilizando
-          a biblioteca @imgly/background-removal, o Remove.bg oferece tecnologia
-          de ponta para remoção de fundo com alta qualidade, tudo isso sem custo
-          para o usuário.
+            Wow
         </p>
         <p>
           <ul>
             <li>Uso simples ✨</li>
             <li>Rápido ⚡</li>
-            <li>Imagens com 100% do tamanho original 🖼️</li>
-            <li>Alternância entre modo escuro e claro 🌓</li>
-            <li>Histórico das imagens que tiveram o fundo removido 📜</li>
-            <li>Construído com Next.js 🔧</li>
-            <li>Utiliza tecnologia de ponta 🌐</li>
-            <li>Usa a biblioteca @imgly/background-removal 📦</li>
-            <li>
-              Design responsivo: Aproveite uma experiência contínua em qualquer
-              dispositivo, com uma interface totalmente responsiva.
-            </li>
           </ul>
         </p>
       </div>
@@ -43,12 +24,12 @@ export const PROJECTS = [
   },
   {
     href: 'https://www.linkedin.com/posts/yasmin-lopes-841b601a1_boa-noite-pessoal-vim-compartilhar-com-voc%C3%AAs-activity-7122734954911793152-G7yJ?utm_source=share&utm_medium=member_desktop',
-    title: 'Chatbot',
+    title: 'TikTakToe',
     description:
-      'Um chatbot desenvolvido utilizando a API do Google Bard. O chatbot é capaz de responder perguntas de forma precisa.',
+      'May the best player win',
     thumbnail: '/assets/images/thumbnails/chatbot.jpg',
     images: [],
-    stack: ['Angular', 'Python', 'Django'],
+    stack: ['Python'],
     slug: 'chatbot',
     content: (
       <ul>

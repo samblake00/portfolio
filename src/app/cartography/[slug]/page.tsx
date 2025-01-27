@@ -4,11 +4,11 @@ import { Container } from '@/shared/components/container';
 import { Metadata } from 'next';
 import { redirect } from 'next/navigation';
 
-type Props = {
+type CartProps = {
   params: { slug: string };
 };
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: CartProps): Promise<Metadata> {
   const slug = params.slug;
   const cartography = CARTOGRAPHY.find((item) => item.slug === slug);
   if (cartography) {

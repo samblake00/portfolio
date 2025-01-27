@@ -54,10 +54,10 @@ export default function AboutMeView() {
         </Paragraph>
 
         <Paragraph className="mt-4">
-          I’m passionate about finding innovative ways to create better applications, and I’m constantly staying updated with the latest in tech.
-          If you're interested in my journey in programming, I’ve shared a detailed article on my blog—check it out{' '}
+          I’m passionate about finding innovative ways to create better applications, and I enjoy staying updated with the latest in tech.
+          If you're interested in my learning more about what I'm focusing on or recent projects I've completed, check out my GitHub profile{' '}
           <a
-            href="https://medium.com/@yasmin.lopes/do-zero-ao-full-stack-minha-jornada-na-programa%C3%A7%C3%A3o-6f79d264c8f7"
+            href="https://github.com/samblake00"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500"
@@ -67,9 +67,9 @@ export default function AboutMeView() {
         </Paragraph>
 
         <Paragraph className="mt-4">
-          When I’m not working, I enjoy a variety of hobbies. I love cooking with my fiancé,
-          playing games (especially Settlers of Catan and JackBox games), and I’m a big animal lover.
-          My cat, Kailena, is my furry companion and keeps me company during all my creative and coding sessions.
+          When I’m not working, I enjoy a variety of hobbies. I love cooking and baking with my fiancé,
+          playing games (especially Settlers of Catan and Jackbox games), and I’m a big animal lover.
+          My cat, Kailena, is my furry companion and keeps me company during all my coding sessions.
           I’m also into music, travelling, snowboarding, and geocaching.
         </Paragraph>
       </div>

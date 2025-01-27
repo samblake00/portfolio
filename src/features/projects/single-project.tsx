@@ -77,7 +77,7 @@ export default function SingleProject({ project }: { project: Project }) {
         target="__blank"
         className="inline-flex items-center gap-1 group/button rounded-full hover:scale-105 focus:outline-none transition ring-offset-gray-900 bg-gray-800 text-white shadow-lg shadow-black/20 sm:backdrop-blur-sm group-hover/button:bg-gray-50/15 group-hover/button:scale-105 focus-visible:ring-1 focus-visible:ring-offset-2 ring-gray-50/60 text-sm font-medium px-4 py-2 mt-auto origin-left"
       >
-        Ver projeto
+        See Project
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"

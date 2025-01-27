@@ -1,85 +1,113 @@
 export const PROJECTS = [
   {
-    href: 'https://yl-remove-bg.vercel.app/',
+    href: 'https://github.com/samblake00/Programming_Final_Project',
     title: 'Gentrification in Denver Using Python and GIS Automation',
     description:
-      'In python I analyzed census tracks',
-    thumbnail: '/assets/images/thumbnails/remove-bg.jpg',
-    images: ['/assets/images/remove-bg.png'],
+      'I analyzed census tracks in Denver which were prone to gentrification. This analysis was completed using ArcPy, Pandas, and OS.',
+    thumbnail: '/assets/images/thumbnails/denverproject.jpg',
+    images: [],
     stack: ['Python'],
     slug: 'gentrification-in-denver',
     content: (
       <div>
         <p>
-            Wow
-        </p>
-        <p>
           <ul>
-            <li>Uso simples ✨</li>
-            <li>Rápido ⚡</li>
           </ul>
         </p>
       </div>
     ),
   },
   {
-    href: 'https://www.linkedin.com/posts/yasmin-lopes-841b601a1_boa-noite-pessoal-vim-compartilhar-com-voc%C3%AAs-activity-7122734954911793152-G7yJ?utm_source=share&utm_medium=member_desktop',
-    title: 'TikTakToe',
+    href: 'https://github.com/samblake00/tic-tac-toe',
+    title: 'Tic Tac Toe',
     description:
-      'May the best player win',
-    thumbnail: '/assets/images/thumbnails/chatbot.jpg',
+      'A self contained tic tac toe application. May the best player win! 😀',
+    thumbnail: '/assets/images/thumbnails/tictactoe.jpg',
     images: [],
     stack: ['Python'],
     slug: 'chatbot',
     content: (
-      <ul>
-        <li>
-          Perguntas e Respostas (QA): Faça uma pergunta e a inteligência
-          artificial fornecerá uma resposta precisa.
-        </li>
-        <li>
-          Histórico: Visualize o histórico de conversas identificado pelo ID da
-          conversa, que está sendo armazenado em memória até o momento.
-        </li>
-        <li>
-          Continuação da Conversa: Continue a conversa fazendo novas perguntas,
-          de acordo com o ID da conversa.
-        </li>
-        <br />
-      </ul>
-    ),
-  },
-  {
-    href: 'https://gitlab.com/Luis-Macedo1/wecare/',
-    title: 'We Care',
-    description:
-      'Uma iniciativa de apoio à quem necessita de ajuda em seus afazeres do dia a dia utilizando a tecnologia. O We Care facilita a conexão entre pessoas que querem ajudar/doar com as que precisam receber.',
-    thumbnail: '/assets/images/thumbnails/we-care.jpg',
-    images: ['/assets/images/wecare-preview-1.png', '/assets/images/wecare-preview-2.png','/assets/images/wecare-preview-3.png',], 
-    stack: ['Angular', 'TypeScript'],
-    slug: 'we-care',
-    content: (
       <div>
         <p>
-          O We Care é um sistema inovador destinado a apoiar pessoas que precisam
-          de ajuda com suas tarefas diárias. Utilizando tecnologia moderna, a
-          plataforma facilita a conexão entre aqueles que desejam oferecer ajuda
-          ou fazer doações e aqueles que estão em busca de suporte. 
+          <ul>
+          </ul>
         </p>
-        <p>
-          Com uma interface intuitiva e funcional, o We Care permite que os usuários
-          publiquem suas necessidades e ofertas de ajuda, tornando o processo de
-          assistência mais ágil e eficiente. A aplicação é desenvolvida em Angular
-          e TypeScript, proporcionando uma experiência de usuário fluida e
-          responsiva.
-        </p>
-        <ul>
-          <li>Conexão entre ajudantes e necessitados 🤝</li>
-          <li>Interface intuitiva e amigável 🖥️</li>
-          <li>Desenvolvido com Angular e TypeScript 🔧</li>
-          <li>Facilita o processo de ajuda e doação 🌟</li>
-        </ul>
       </div>
     ),
   },
+  {
+    href: 'https://github.com/samblake00/weatherapp',
+    title: 'Weather App',
+    description:
+      'A custom app where users can obtain local weather information.',
+    thumbnail: '/assets/images/thumbnails/weatherapp.jpg',
+    images: [],
+    stack: ['HTML'],
+    slug: 'weatherapp',
+    content: (
+      <div>
+        <p>
+          <ul>
+            This application is built using tkinter and queries data from OpenWeatherMap. The user-interface prompts you to enter a city name and provides attributes such as temperature, pressure, humidity, clouds, and other associated information in the response.
+          </ul>
+        </p>
+      </div>
+    ),
+  },
+  {
+    href: 'https://sam-personal-website.s3.us-east-1.amazonaws.com/website-projects/Masters_Thesis.pdf',
+    title: 'Master\'s Thesis',
+    description:
+      'Mapping Seven Urban Tree Species Using a WorldView-3 Multispectral Satellite Image Across the Denver Metropolitan Landscape.',
+    thumbnail: '/assets/images/thumbnails/trees.png',
+    images: [],
+    stack: [],
+    slug: 'thesis',
+    content: (
+      <div>
+        <p>
+          <ul>
+          </ul>
+        </p>
+      </div>
+    ),
+  },
+    {
+    href: 'https://sam-personal-website.s3.amazonaws.com/website-projects/Micromobility_Analysis_Report_CU_Denver_2020.pdf',
+    title: 'Analysis of Dockless Micro-Mobility in Denver',
+    description:
+      'I examined infrastructure suitability and transportation equity across the city of Denver.',
+    thumbnail: '/assets/images/thumbnails/micromobility.png',
+    images: [],
+    stack: [],
+    slug: 'micromobility',
+    content: (
+      <div>
+        <p>
+          <ul>
+          </ul>
+        </p>
+      </div>
+    ),
+  },
+
+        {
+    href: 'https://sam-personal-website.s3.us-east-1.amazonaws.com/website-projects/Canopy%2BCover%2BEstimates%2Bthrough%2BRemote%2BSensing%2BApplications.pdf',
+    title: 'Remote Sensing Literature Review',
+    description:
+      'A Comparison of Remote Sensing Canopy Cover Estimation Methods',
+    thumbnail: '/assets/images/thumbnails/space.jpeg',
+    images: [],
+    stack: [],
+    slug: 'litreview',
+    content: (
+      <div>
+        <p>
+          <ul>
+          </ul>
+        </p>
+      </div>
+    ),
+  },
+
 ];

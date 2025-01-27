@@ -12,7 +12,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Samuel Blake',
   description:
-  'Yasmin Lopes é uma apaixonada por tecnologia e design, com formação em Análise e Desenvolvimento de Sistemas e atualmente cursando pós-graduação em Engenharia de Software. Com mais de 3 anos de experiência em desenvolvimento de software e uma sólida bagagem em Design Gráfico, Yasmin utiliza sua criatividade para criar soluções inovadoras e eficazes. Além de seu trabalho, ela adora cozinhar, jogar, e é amante de animais, especialmente do seu cachorro JSON. Acompanhe sua jornada e descobertas no blog e nas redes sociais.'
+  ''
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -30,7 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             {children}
             <div className="p-4 text-center justify-center text-xs text-neutral-500 border-t border-neutral-100">
               <span className="font-semibold">{new Date().getFullYear()} </span>
-              &#8212; Yasmin Lopes
+              &#8212; Samuel Blake
             </div>
           </div>
         </div>

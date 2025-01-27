@@ -4,6 +4,7 @@ import {
   IconTools,
   IconNotes,
   IconPhone,
+  IconMap
 } from "@tabler/icons-react";
 
 export const NAV_LINKS = [
@@ -22,9 +23,10 @@ export const NAV_LINKS = [
     label: "Projects",
     icon: IconTools,
   },
-  // {
-  //   href: "/blog",
-  //   label: "Blog",
-  //   icon: IconNotes,
-  // },
+  {
+    href: "/cartography",
+    label: "Cartography",
+    icon: IconMap,
+  }
+
 ];

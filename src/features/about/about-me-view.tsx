@@ -49,13 +49,13 @@ export default function AboutMeView() {
           <Highlight>
            {yearsOfExperience} years of experience in software design and development
           </Highlight>{' '}
-          and 4+ years in remote sensing/GIS, I`&apos;m always seeking new challenges and opportunities to learn and
+          and 4+ years in remote sensing/GIS, I&apos;m always seeking new challenges and opportunities to learn and
           grow.
         </Paragraph>
 
         <Paragraph className="mt-4">
-          I`&apos;m passionate about finding innovative ways to create better applications, and I enjoy staying updated with the latest in tech.
-          If you`&apos;re interested in my learning more about what I`&apos;m focusing on or recent projects I`&apos;ve completed, check out my GitHub profile{' '}
+          I&apos;m passionate about finding innovative ways to create better applications, and I enjoy staying updated with the latest in tech.
+          If you&apos;re interested in my learning more about what I&apos;m focusing on or recent projects I&apos;ve completed, check out my GitHub profile{' '}
           <a
             href="https://github.com/samblake00"
             target="_blank"
@@ -67,10 +67,10 @@ export default function AboutMeView() {
         </Paragraph>
 
         <Paragraph className="mt-4">
-          When I`&apos;m not working, I enjoy a variety of hobbies. I love cooking and baking with my fiancé,
-          playing games (especially Settlers of Catan and Jackbox games), and I`&apos;m a big animal lover.
+          When I&apos;m not working, I enjoy a variety of hobbies. I love cooking and baking with my fiancé,
+          playing games (especially Settlers of Catan and Jackbox games), and I&apos;m a big animal lover.
           My cat, Kailena, is my furry companion and keeps me company during all my coding sessions.
-          I`&apos;m also into music, travelling, snowboarding, and geocaching.
+          I&apos;m also into music, travelling, snowboarding, and geocaching.
         </Paragraph>
       </div>
     </div>

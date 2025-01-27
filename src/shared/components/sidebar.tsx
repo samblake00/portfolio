@@ -24,7 +24,7 @@ export default function Sidebar() {
     <div className="flex space-x-2 items-center">
       <div className="relative w-10 h-10"> 
         <Image
-          src="https://github.com/samblake00.png"
+          src="/assets/images/headshot.jpg"
           alt="Avatar"
           layout="fill"
           className="rounded-full object-cover"

@@ -25,7 +25,7 @@ export const CARTOGRAPHY = [
     thumbnail: '/assets/images/thumbnails/envi_animation.gif',
     images: [],
     stack: [],
-    slug: 'envi_animation',
+    slug: 'envianimation',
     content: (
       <div>
         <p>

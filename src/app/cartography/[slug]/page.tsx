@@ -8,20 +8,20 @@ type CartProps = {
   params: { slug: string };
 };
 
-export async function generateMetadata({ params }: CartProps): Promise<Metadata> {
-  const slug = params.slug;
-  const cartography = CARTOGRAPHY.find((item) => item.slug === slug);
-  if (cartography) {
-    return {
-      title: cartography.title,
-      description: cartography.description,
-    };
-  } else {
-    return {
-      title: 'Cartography | Samuel Blake',
-    };
-  }
-}
+// export async function generateMetadata({ params }: CartProps): Promise<Metadata> {
+//   const slug = params.slug;
+//   const cartography = CARTOGRAPHY.find((item) => item.slug === slug);
+//   if (cartography) {
+//     return {
+//       title: cartography.title,
+//       description: cartography.description,
+//     };
+//   } else {
+//     return {
+//       title: 'Cartography | Samuel Blake',
+//     };
+//   }
+// }
 
 export default function SingleCartographyPage({
   params,

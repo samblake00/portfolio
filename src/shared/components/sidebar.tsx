@@ -1,11 +1,12 @@
 'use client';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { twMerge } from 'tailwind-merge';
 import { IconLayoutSidebarRightCollapse } from '@tabler/icons-react';
-import { isMobile } from '../utils/is-mobile';
+import { useIsMobile } from '../utils/is-mobile';
 import { Badge } from './badge';
 import { Heading } from './heading';
 import { SOCIALS } from '../assets/data/social';
@@ -19,7 +20,7 @@ export type Navlink = {
 
 export default function Sidebar() {
     const isMobile = useIsMobile();
-  const [open, setOpen] = useState(isMobile());
+  const [open, setOpen] = useState(!isMobile);
 
   useEffect(() => {
     setOpen(!isMobile); // Adjust the sidebar state when the screen size changes

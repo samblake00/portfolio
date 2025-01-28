@@ -55,7 +55,7 @@ export default function AboutMeView() {
 
         <Paragraph className="mt-4">
           I&apos;m passionate about finding innovative ways to create better applications, and I enjoy staying updated with the latest in tech.
-          If you&apos;re interested in my learning more about what I&apos;m focusing on or recent projects I&apos;ve completed, check out my GitHub profile{' '}
+          If you&apos;re interested in learning more about what I&apos;m focusing on or recent projects I&apos;ve completed, check out my GitHub profile{' '}
           <a
             href="https://github.com/samblake00"
             target="_blank"

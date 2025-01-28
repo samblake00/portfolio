@@ -18,7 +18,12 @@ export type Navlink = {
 };
 
 export default function Sidebar() {
-  const [open, setOpen] = useState(isMobile() ? false : true);
+    const isMobile = useIsMobile();
+  const [open, setOpen] = useState(isMobile());
+
+  useEffect(() => {
+    setOpen(!isMobile); // Adjust the sidebar state when the screen size changes
+  }, [isMobile]);
 
   const renderHead = (
     <div className="flex space-x-2 items-center">

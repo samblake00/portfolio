@@ -4,9 +4,9 @@ export const EXPERIENCES = [
       title: "Software Engineer",
       date: "Sept 2022 - Present",
       responsibilities: [
-        "Leverages and maintains an event-driven, microservice system for efficient processing of imagery to a customer-accessible \href{https:\/\/stacspec.org/en}{STAC} API.",
+        "Leverages and maintains an event-driven, microservice system for efficient processing of imagery to a customer-facing REST API.",
         "Proficient in multiple programming languages including Python, Groovy, and Terraform, with a strong track record of designing and implementing complex software systems",
-        "Lead developer for the integration of third-party synthetic aperture radar SAR imagery into Maxar's catalog, enhancing multisource geospatial intelligence capabilities for both government and commercial clients.",
+        "Lead developer for the integration of third-party synthetic aperture radar imagery into Maxar's catalog, enhancing multisource geospatial intelligence capabilities for both government and commercial clients.",
         "Adept at translating user requirements into practical solutions, conducting comprehensive testing, and debugging to deliver reliable and scalable software applications."
       ],
     },
@@ -16,8 +16,8 @@ export const EXPERIENCES = [
       date: "May 2020 - Sept 2022",
       responsibilities: [
         "Developed and enhanced functionality of Spatial on Demand, a geospatial intelligence streaming platform for energy customers, by focusing on a requirements-driven design; ultimately securing 50+ contracts valued at \$3 million total.",
-        "Led the migration of energy customers to new web mapping services WMS/WMTS, including transforming geospatial data into cloud-optimized GeoTIFF COG files using GDAL, configuring layer access, and integrating services with third-party mapping clients.",
-        "Implemented and optimized web services for performance and interoperability using a diverse set of technologies, including GeoServer, Amazon Web Services, ESRI Image Services, and a MapProxy tile caching solution.",
+        "Led the migration of energy customers to new web mapping services, including transforming geospatial data into cloud-optimized GeoTIFF COG files using GDAL, configuring layer access, and integrating services with third-party software clients.",
+        "Implemented and optimized web services for performance and interoperability using a diverse set of technologies, including GeoServer, Amazon Web Services, ESRI Image Services, and a MapProxy caching solution.",
         "Analyzed geospatial satellite data for quality assurance, radiometric scaling, and horizontal accuracy."
       ],
     },

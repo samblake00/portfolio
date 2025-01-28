@@ -7,7 +7,22 @@ import { Paragraph } from '@/shared/components/paragraph';
 
 export default function ResumeView() {
   return (
-    <div className="space-y-20">
+      <div className="space-y-10">
+ {/* Experiences Title and Download Button */}
+  <div className="flex justify-between items-center">
+    <Heading as="h4" className="black">
+      Experience
+    </Heading>
+    <a
+      href="/assets/Samuel_Blake_Resume.pdf" // Adjust the path to where your resume is hosted
+      download="Samuel_Blake_Resume.pdf"
+      className="inline-block bg-emerald-500 text-white px-6 py-2 rounded-lg text-sm font-semibold shadow-md hover:bg-emerald-600 transition"
+      aria-label="Download resume"
+    >
+      Download Resume
+    </a>
+  </div>
+      {/* Experiences Section */}
       {EXPERIENCES.map((item, index) => (
         <div
           className="flex flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10 relative"

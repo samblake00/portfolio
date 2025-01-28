@@ -11,7 +11,6 @@ export const metadata: Metadata = {
 export default function ResumePage() {
   return (
     <Container>
-      <Heading className="font-black">Experience</Heading>
       <ResumeView />
     </Container>
   );

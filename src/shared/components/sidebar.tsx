@@ -52,7 +52,7 @@ export default function Sidebar() {
             {renderHead}
             <Navigation setOpen={setOpen} />
           </div>
-          <div onClick={() => isMobile() && setOpen(false)}>
+          <div onClick={() => isMobile && setOpen(false)}>
             <Badge href="/resume" text="See resume" />
           </div>
         </div>

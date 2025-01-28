@@ -50,7 +50,7 @@ export default function Sidebar() {
         <div className="px-6 z-[100] py-10 bg-neutral-100 max-w-[14rem] lg:w-fit fixed lg:relative h-screen left-0 flex flex-col justify-between">
           <div className="flex-1 overflow-auto">
             {renderHead}
-            <Navigation setOpen={setOpen} />
+            <Navigation setOpen={setOpen} isMobile={isMobile}/>
           </div>
           <div onClick={() => isMobile && setOpen(false)}>
             <Badge href="/resume" text="See resume" />

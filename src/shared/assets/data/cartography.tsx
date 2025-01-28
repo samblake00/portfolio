@@ -3,7 +3,7 @@ export const CARTOGRAPHY = [
     href: 'https://sam-personal-website.s3.amazonaws.com/website-projects/JoyPlotFinal.png',
     title: 'Joy Plot of Colorado\'s Front Range',
     description:
-      'test',
+      'Elevation of Colorado\'s Front Range from Fort Collins to Colorado Springs.',
     thumbnail: '/assets/images/thumbnails/JoyPlotFinal.png',
     images: [],
     stack: [],
@@ -21,7 +21,7 @@ export const CARTOGRAPHY = [
     href: 'https://sam-personal-website.s3.amazonaws.com/website-projects/envi_animation.gif',
     title: 'Las Vegas Time Series Land Cover',
     description:
-      'test',
+      'Time series GIF displaying the urban expansion of Las Vegas from 1975 to 2014.',
     thumbnail: '/assets/images/thumbnails/envi_animation.gif',
     images: [],
     stack: [],
@@ -37,9 +37,9 @@ export const CARTOGRAPHY = [
   },
   {
     href: 'https://sam-personal-website.s3.amazonaws.com/website-projects/k2.png',
-    title: 'U.S. Vessel Shipping Routes in June 2020',
+    title: 'U.S. Vessel Shipping Routes',
     description:
-      'test',
+      'Hex map displaying shipping routes in the Gulf of Mexico in June 2020.',
     thumbnail: '/assets/images/thumbnails/hex.png',
     images: [],
     stack: [],

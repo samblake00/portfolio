@@ -1,6 +1,6 @@
 export const PROJECTS = [
   {
-    href: 'https://github.com/samblake00/flask-tutorial.git',
+    href: 'http://flask-env.eba-dce3wmxk.us-east-2.elasticbeanstalk.com/',
     title: 'Flask Tutorial',
     description:
       'I created a python application using Flask for users to create, share, and comment on blog posts.',

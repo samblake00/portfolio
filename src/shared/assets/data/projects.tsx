@@ -1,5 +1,23 @@
 export const PROJECTS = [
   {
+    href: 'https://github.com/samblake00/flask-tutorial.git',
+    title: 'Flask Tutorial',
+    description:
+      'I created a python application using Flask for users to create, share, and comment on blog posts.',
+    thumbnail: '/assets/images/thumbnails/flask.jpg',
+    images: [],
+    stack: ['Python', 'Flask'],
+    slug: 'flask-app',
+    content: (
+      <div>
+        <p>
+          <ul>
+          </ul>
+        </p>
+      </div>
+    ),
+  },
+  {
     href: 'https://github.com/samblake00/Programming_Final_Project',
     title: 'Gentrification in Denver Using Python and GIS Automation',
     description:

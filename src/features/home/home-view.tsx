@@ -13,7 +13,7 @@ export default function HomeView() {
     <Container>
       <Heading className="font-black">Hi my name is Samuel Blake!</Heading>
       <Paragraph className="max-w-xl mt-4">
-        I&apos;m a software engineer at Maxar Technologies, with a passion for people, remote sensing, snowboarding, music, and software design.
+        I&apos;m a Staff Software Development Engineer at Vantor, with a passion for software design, remote sensing, snowboarding, playing guitar, and aviation.
         I utilize my diverse skill set to develop geospatial applications and extract meaningful patterns in data.
       </Paragraph>
 

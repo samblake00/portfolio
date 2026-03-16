@@ -3,7 +3,7 @@ export const PROJECTS = [
     href: 'http://flask-env.eba-dce3wmxk.us-east-2.elasticbeanstalk.com/',
     title: 'Flask Tutorial',
     description:
-      'I created a python application using Flask for users to create, share, and comment on blog posts.',
+      'I created a python application using Flask for users to create, share, and comment on blog posts deployed via AWS Elastic Beanstalk.',
     thumbnail: '/assets/images/thumbnails/flask.jpg',
     images: [],
     stack: ['Python', 'Flask'],

@@ -28,9 +28,9 @@ export default function Sidebar() {
 
   const renderHead = (
     <div className="flex space-x-2 items-center">
-      <div className="relative w-10 h-10"> 
+      <div className="relative w-10 h-10">
         <Image
-          src="/assets/images/headshot.jpg"
+          src="/assets/images/profile_pic.jpeg"
           alt="Avatar"
           layout="fill"
           className="rounded-full object-cover"

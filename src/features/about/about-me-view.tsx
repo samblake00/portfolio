@@ -8,9 +8,9 @@ import { yearsOfExperience } from '@/shared/utils/years-experience';
 export default function AboutMeView() {
   const images = [
     '/assets/images/me.jpg',
-    '/assets/images/kailena.jpg',
-    '/assets/images/travel.jpg',
-    '/assets/images/mountains.jpg'
+    '/assets/images/snowboard.png',
+    '/assets/images/kristen.jpeg',
+    '/assets/images/bierstadt.jpeg'
   ];
 
   return (
@@ -49,14 +49,13 @@ export default function AboutMeView() {
           <Highlight>
             software engineer
           </Highlight>{' '}
-          who enjoys building things that are reliable, fast, and occasionally a little over-engineered (in the best way).
-          Most of my professional work is in the cloud, where I focus on distributed systems, automation, and infrastructure
-          for a commercial satellite imaging company.
+          at Vantor who enjoys building software apps and workflows for a commercial satellite company. Most of my professional work is in the cloud, where I focus on
+          distributed systems, imagery processing automation, and making Vantor imagery discoverable via a Discovery API (creative name I know).
         </Paragraph>
 
         <Paragraph className="mt-4">
           Outside of work, I love building side projects, learning new technologies, and helping small businesses improve
-          their online presence through my website studio,{' '}
+          their online presence through my website development company,{' '}
           <a
             href="https://blakebyte.com"
             target="_blank"
@@ -67,20 +66,20 @@ export default function AboutMeView() {
           </a>
           . I&apos;m always looking for better ways to build thoughtful,
           useful applications and stay current with what&apos;s happening in tech. If you&apos;d like to see what I&apos;m currently
-          exploring, you can check out my profile{' '}
+          exploring, you can check out my profile on {' '}
           <a
             href="https://github.com/samblake00"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500"
           >
-            on GitHub.
+            GitHub.
           </a>
         </Paragraph>
 
         <Paragraph className="mt-4">
-          When I&apos;m not writing code, you&apos;ll probably find me snowboarding in the mountains, working on my house,
-          planning the next trip, or trying to make something slightly better than it was before.
+          When I&apos;m not coding, you&apos;ll probably find me snowboarding in the mountains, working on my house,
+          planning the next trip, or acting as a human tree for my cat.
         </Paragraph>
       </div>
     </div>

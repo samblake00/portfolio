@@ -11,10 +11,14 @@ import GithubCalendar from './home-github-contribution';
 export default function HomeView() {
   return (
     <Container>
-      <Heading className="font-black">Hi my name is Samuel Blake!</Heading>
+      <Heading className="font-black">Hi my name is Sam Blake!</Heading>
       <Paragraph className="max-w-xl mt-4">
-        I&apos;m a Staff Software Development Engineer at Vantor, with a passion for software design, remote sensing, snowboarding, playing guitar, and aviation.
-        I utilize my diverse skill set to develop geospatial applications and extract meaningful patterns in data.
+        Welcome to my personal portfolio! I&apos;m a Staff Software Development Engineer at Vantor with a passion for geospatial software design and solving complex technical challenges.
+        Outside of work, you'll usually find me snowboarding, playing guitar, or spending time outdoors.
+      </Paragraph>
+
+      <Paragraph className="max-w-xl mt-4">
+          Feel free to explore my projects, learn more about my interests and experience, and don't hesitate to reach out. I'd love to connect!
       </Paragraph>
 
       <GithubCalendar/>

@@ -1,22 +1,23 @@
 export const EXPERIENCES = [
     {
-      company: "Maxar Technologies",
-      title: "Software Engineer",
+      company: "Vantor Technologies",
+      title: "Staff Software Development Engineer",
       date: "Sept 2022 - Present",
       responsibilities: [
-        "Leverages and maintains an event-driven, microservice system for efficient processing of imagery to a customer-facing REST API.",
-        "Proficient in multiple programming languages including Python, Groovy, and Terraform, with a strong track record of designing and implementing complex software systems",
-        "Lead developer for the integration of third-party synthetic aperture radar imagery into Maxar's catalog, enhancing multisource geospatial intelligence capabilities for both government and commercial clients.",
-        "Adept at translating user requirements into practical solutions, conducting comprehensive testing, and debugging to deliver reliable and scalable software applications."
+        "Technical owner of Vantor Discovery API, the platform that powers Vantor’s mission-critical consumer facing products, subsequent tasking efforts and the generation of derivative geospatial products",
+        "Led the end-to-end integration of third-party Synthetic Aperture Radar (SAR) imagery into Vantor’s geospatial catalog, designing ingestion workflows, metadata transformation, and STAC publication pipelines that expanded multisource imagery available to government and commercial customers.",
+        "Designed and operated distributed discovery and ingest infrastructure handling thousands of new assets and real-time event notifications daily across 7 environments with 99.99\% production API uptime.",
+        "Designed and implemented engineering-wide AI-assisted code review and unit test generation workflows using Augment, enabling multiple engineering teams to adopt standardized review agents that improved code quality, consistency, and developer productivity.",
+        "Selected to the Data Foundations AI cohort to help shape internal engineering standards for LLM usage and agent distribution strategies."
       ],
     },
     {
-      company: "Maxar Technologies",
+      company: "Vantor Technologies",
       title: "Geospatial Data Analyst",
       date: "May 2020 - Sept 2022",
       responsibilities: [
         "Developed and enhanced functionality of Spatial on Demand, a geospatial intelligence streaming platform for energy customers, by focusing on a requirements-driven design; ultimately securing 50+ contracts valued at \$3 million total.",
-        "Led the migration of energy customers to new web mapping services, including transforming geospatial data into cloud-optimized GeoTIFF COG files using GDAL, configuring layer access, and integrating services with third-party software clients.",
+        "Led the migration of energy customers to new web mapping services (WMS/WMTS), including transforming geospatial data into cloud-optimized GeoTIFF (COG) files using GDAL, configuring layer access, and integrating services with third-party mapping clients.\n",
         "Implemented and optimized web services for performance and interoperability using a diverse set of technologies, including GeoServer, Amazon Web Services, ESRI Image Services, and a MapProxy caching solution.",
         "Analyzed geospatial satellite data for quality assurance, radiometric scaling, and horizontal accuracy."
       ],
@@ -47,14 +48,14 @@ export const EDUCATION = [
     {
       degree: "M.A. in Applied Geography and Geospatial Science",
       institution: "University of Colorado Denver",
-      date: "2018 - 2021",
+      date: "August 2021",
       description: "Mapping Seven Urban Tree Species Using a WorldView-3 Multispectral Satellite Image Across the Denver Metropolitan Landscape.",
       descriptionLink: "https://sam-personal-website.s3.us-east-1.amazonaws.com/website-projects/Masters_Thesis.pdf"
     },
     {
       degree: "B.A. in Environmental Studies",
       institution: "University of Colorado Boulder",
-      date: "2014 - 2018",
+      date: "May 2018",
       description: "Welcome to my backyard: A seven-part regional analysis of VOCs estimated emission levels from oil and natural gas extraction in Colorado.",
       descriptionLink: "https://scholar.colorado.edu/concern/undergraduate_honors_theses/3n203z73f?locale=it"
     },

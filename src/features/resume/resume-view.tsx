@@ -14,8 +14,8 @@ export default function ResumeView() {
       Experience
     </Heading>
     <a
-      href="/assets/Samuel_Blake_Resume.pdf" // Adjust the path to where your resume is hosted
-      download="Samuel_Blake_Resume.pdf"
+      href="/assets/BlakeResume2026.pdf" // Adjust the path to where your resume is hosted
+      download="BlakeResume2026.pdf"
       className="inline-block bg-emerald-500 text-white px-6 py-2 rounded-lg text-sm font-semibold shadow-md hover:bg-emerald-600 transition"
       aria-label="Download resume"
     >

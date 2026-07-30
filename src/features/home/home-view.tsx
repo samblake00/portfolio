@@ -14,11 +14,11 @@ export default function HomeView() {
       <Heading className="font-black">Hi my name is Sam Blake!</Heading>
       <Paragraph className="max-w-xl mt-4">
         Welcome to my personal portfolio! I&apos;m a Staff Software Development Engineer at Vantor with a passion for geospatial software design and solving complex technical challenges.
-        Outside of work, you'll usually find me snowboarding, playing guitar, or spending time outdoors.
+        Outside of work, you&apos;ll usually find me snowboarding, playing guitar, or spending time outdoors.
       </Paragraph>
 
       <Paragraph className="max-w-xl mt-4">
-          Feel free to explore my projects, learn more about my interests and experience, and don't hesitate to reach out. I'd love to connect!
+          Feel free to explore my projects, learn more about my interests and experience, and don&apos;t hesitate to reach out. I&apos;d love to connect!
       </Paragraph>
 
       <GithubCalendar/>

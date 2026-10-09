@@ -10,9 +10,32 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Samuel Blake',
+  title: {
+    default: 'Samuel Blake',
+    template: '%s | Samuel Blake',
+  },
   description:
-  ''
+    'Portfolio of Samuel Blake, a staff software engineer focused on geospatial platforms, product engineering, and practical technical leadership.',
+  keywords: [
+    'Samuel Blake',
+    'Software Engineer',
+    'Geospatial',
+    'Portfolio',
+    'Next.js',
+  ],
+  openGraph: {
+    title: 'Samuel Blake',
+    description:
+      'Portfolio of Samuel Blake, a staff software engineer focused on geospatial platforms, product engineering, and practical technical leadership.',
+    siteName: 'Samuel Blake',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Samuel Blake',
+    description:
+      'Portfolio of Samuel Blake, a staff software engineer focused on geospatial platforms, product engineering, and practical technical leadership.',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

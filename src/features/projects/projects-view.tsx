@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import { IconArrowUpRight } from '@tabler/icons-react';
 import { PROJECTS } from '@/shared/assets/data/projects';
 import { Heading } from '@/shared/components/heading';
 import { Paragraph } from '@/shared/components/paragraph';
@@ -36,14 +37,22 @@ export default function ProjectsView() {
             }}
             transition={{ duration: 0.2, delay: idx * 0.1 }}
           >
+            {(() => {
+              const destination = project.slug ? `/projects/${project.slug}` : project.href;
+              const isExternal = !project.slug && /^https?:\/\//.test(destination);
+
+              return (
             <Link
-              href={project.slug ? `/projects/${project.slug}` : project.href}
+              href={destination}
+              target={isExternal ? '_blank' : undefined}
+              rel={isExternal ? 'noreferrer noopener' : undefined}
               key={project.href}
               className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 pt-4"
+              aria-label={`${project.title} ${isExternal ? 'opens in a new tab' : 'case study page'}`}
             >
               <Image
                 src={project.thumbnail}
-                alt="thumbnail"
+                alt={`${project.title} thumbnail`}
                 height="200"
                 width="200"
                 className="rounded-md"
@@ -60,7 +69,7 @@ export default function ProjectsView() {
                     {project.description}
                   </Paragraph>
                 </div>
-                <div className="flex space-x-2 md:mb-1 mt-2 md:mt-0">
+                <div className="flex flex-wrap items-center gap-2 md:mb-1 mt-2 md:mt-0">
                   {project.stack?.map((stack: string) => (
                     <span
                       key={stack}
@@ -69,9 +78,15 @@ export default function ProjectsView() {
                       {stack}
                     </span>
                   ))}
+                  <span className="inline-flex items-center gap-1 text-xs font-medium text-emerald-600">
+                    {isExternal ? 'Open project' : 'Case study'}
+                    <IconArrowUpRight className="h-3.5 w-3.5" />
+                  </span>
                 </div>
               </div>
             </Link>
+              );
+            })()}
           </motion.div>
         ))}
       </div>

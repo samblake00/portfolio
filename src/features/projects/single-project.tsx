@@ -2,8 +2,8 @@
 import Image, { StaticImageData } from 'next/image';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Heading } from '../../shared/components/heading';
-import { Paragraph } from '../../shared/components/paragraph';
+import { Heading } from '@/shared/components/heading';
+import { Paragraph } from '@/shared/components/paragraph';
 import { Project } from '@/features/projects/projects-view';
 
 export default function SingleProject({ project }: { project: Project }) {
@@ -74,7 +74,8 @@ export default function SingleProject({ project }: { project: Project }) {
 
       <a
         href={project.href}
-        target="__blank"
+        target="_blank"
+        rel="noreferrer noopener"
         className="inline-flex items-center gap-1 group/button rounded-full hover:scale-105 focus:outline-none transition ring-offset-gray-900 bg-gray-800 text-white shadow-lg shadow-black/20 sm:backdrop-blur-sm group-hover/button:bg-gray-50/15 group-hover/button:scale-105 focus-visible:ring-1 focus-visible:ring-offset-2 ring-gray-50/60 text-sm font-medium px-4 py-2 mt-auto origin-left"
       >
         See Project
@@ -85,9 +86,9 @@ export default function SingleProject({ project }: { project: Project }) {
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform"
         >
           <path d="M5 12l14 0"></path>

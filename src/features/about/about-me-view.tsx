@@ -45,12 +45,8 @@ export default function AboutMeView() {
       <div className="max-w-4xl">
 
         <Paragraph className="mt-4">
-          I&apos;m a{' '}
-          <Highlight>
-            software engineer
-          </Highlight>{' '}
-          at Vantor who enjoys building software apps and workflows for a commercial satellite company. Most of my professional work is in the cloud, where I focus on
-          distributed systems, imagery processing automation, and making Vantor imagery discoverable via a Discovery API (creative name I know).
+          I&apos;m a Staff Software Development Engineer at Vantor in Denver, Colorado. Most of my professional work is cloud-based, where I focus on
+          distributed systems, imagery processing automation, and making Vantor imagery discoverable via a Discovery API.
         </Paragraph>
 
         <Paragraph className="mt-4">

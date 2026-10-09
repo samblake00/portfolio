@@ -2,26 +2,55 @@
 import { IconCircleCheckFilled } from "@tabler/icons-react";
 import { EXPERIENCES } from '@/shared/assets/data/resume';
 import { EDUCATION } from '@/shared/assets/data/resume';
+import { SKILLS } from '@/shared/assets/data/resume';
 import { Heading } from '@/shared/components/heading';
 import { Paragraph } from '@/shared/components/paragraph';
 
 export default function ResumeView() {
   return (
       <div className="space-y-10">
- {/* Experiences Title and Download Button */}
-  <div className="flex justify-between items-center">
-    <Heading as="h4" className="black">
-      Experience
-    </Heading>
+  <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+    <div>
+      <Heading as="h4" className="black">
+        Experience
+      </Heading>
+      <Paragraph className="text-sm text-neutral-500 mt-1">
+        A quick snapshot of my core strengths and recent work.
+      </Paragraph>
+    </div>
     <a
-      href="/assets/BlakeResume2026.pdf" // Adjust the path to where your resume is hosted
+      href="/assets/BlakeResume2026.pdf"
       download="BlakeResume2026.pdf"
       className="inline-block bg-emerald-500 text-white px-6 py-2 rounded-lg text-sm font-semibold shadow-md hover:bg-emerald-600 transition"
-      aria-label="Download resume"
+      aria-label="Download resume as PDF"
     >
       Download Resume
     </a>
   </div>
+
+      <div>
+        <Heading as="h4" className="text-2xl text-emerald-500">Skills</Heading>
+        <div className="grid gap-4 md:grid-cols-2 mt-4">
+          {SKILLS.map((skillGroup) => (
+            <div key={skillGroup.category} className="rounded-xl border border-neutral-100 bg-neutral-50 p-4">
+              <Paragraph className="text-sm font-semibold text-neutral-900 mb-3">
+                {skillGroup.category}
+              </Paragraph>
+              <div className="flex flex-wrap gap-2">
+                {skillGroup.items.map((skill) => (
+                  <span
+                    key={skill}
+                    className="text-xs bg-white border border-neutral-200 px-2 py-1 rounded-full text-secondary"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
       {/* Experiences Section */}
       {EXPERIENCES.map((item, index) => (
         <div

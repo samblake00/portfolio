@@ -67,5 +67,24 @@ export const EDUCATION = [
     },
   ];
 
+    export const SKILLS = [
+        {
+          category: 'Languages',
+          items: ['TypeScript', 'Python', 'SQL'],
+        },
+        {
+          category: 'Frontend / App Development',
+          items: ['React', 'Next.js', 'Flask'],
+        },
+        {
+          category: 'Geospatial / Data',
+          items: ['GIS', 'ArcPy', 'GDAL', 'GeoServer', 'STAC', 'GeoTIFF'],
+        },
+        {
+          category: 'Cloud / Delivery',
+          items: ['AWS', 'MapProxy', 'Remote Sensing', 'Technical Leadership'],
+        },
+      ];
+
 
   

@@ -1,6 +1,24 @@
 export const PROJECTS = [
   {
-    href: 'http://flask-env.eba-dce3wmxk.us-east-2.elasticbeanstalk.com/',
+    href: 'https://github.com/samblake00/slope-api',
+    title: 'Slope API',
+    description:
+      'I created a Flask API to provide information about ski resorts and conditions.',
+    thumbnail: '/assets/images/thumbnails/slope-api.png',
+    images: [],
+    stack: ['Python', 'Flask'],
+    slug: 'slope-api',
+    content: (
+      <div>
+        <p>
+          <ul>
+          </ul>
+        </p>
+      </div>
+    ),
+  },
+  {
+    href: 'https://github.com/samblake00/flask-tutorial',
     title: 'Flask Tutorial',
     description:
       'I created a python application using Flask for users to create, share, and comment on blog posts deployed via AWS Elastic Beanstalk.',
@@ -108,8 +126,7 @@ export const PROJECTS = [
       </div>
     ),
   },
-
-        {
+  {
     href: 'https://sam-personal-website.s3.us-east-1.amazonaws.com/website-projects/Canopy%2BCover%2BEstimates%2Bthrough%2BRemote%2BSensing%2BApplications.pdf',
     title: 'Remote Sensing Literature Review',
     description:
@@ -127,5 +144,4 @@ export const PROJECTS = [
       </div>
     ),
   },
-
 ];
